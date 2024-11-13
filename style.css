@@ -1,0 +1,55 @@
+
+        .team-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .team-section h1 {
+            color: #ff4081;
+            font-weight: bold;
+        }
+        .team-section p {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: #777;
+        }
+
+        .card-horizontal {
+            display: flex;
+            background-color: #222;
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .card-horizontal img {
+            width: 150px;
+            height: auto;
+            object-fit: cover;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .card-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #ffffff;
+            margin-bottom: 5px;
+        }
+        .card-text.role {
+            margin: 0;
+            color: #cccccc;
+            font-size: 0.9rem;
+        }
+        .card-text.email {
+            color: #00bcd4;
+            font-size: 0.9rem;
+            margin-top: 3px;
+            font-weight: normal;
+        } 
+
+
+        img {
+            max-width: 100px;
+            display: block;
+        }
